@@ -1,0 +1,79 @@
+body {
+  
+  font: 20px "Helvetica Regular", Arial, sans-serif;
+  color: #0c332f;
+}
+
+a {
+  color: #8c6300;
+  font: 20px "Helvetica Regular", Arial, sans-serif;
+
+}
+
+.links{}
+.user-search{
+	width : 50px;
+}
+
+h1{
+	font-family: 'Helvetica';
+	font-size: 24px;
+	font-weight: bold;
+	color: #e4efee;
+	background-color: #008c85;
+}
+.data-row{
+	background-color:#f9f9f9;
+	border: 1px solid #ddd;
+	padding:8px; 
+	line-height: 1.42857143;
+	font-size: 16px;
+	text-align: center;
+}
+
+.data-row-style-1{
+	background-color:#f9f9f9;
+	border: 1px solid #ddd;
+	padding:8px; 
+	line-height: 1.42857143;
+}
+
+.data-row-style-2{
+	background-color:#ffffff;
+}
+
+#prodInfo{
+	margin: 5px;
+}
+@media only screen and (max-width: 500px) {
+    body {
+	  
+	  font: 24px "Helvetica Regular", Arial, sans-serif;
+	  color: #0c332f;
+	  background-color: #f9fbd0;
+	}
+
+	a {
+	  color: #8c6300;
+	  font: 20px "Helvetica Regular", Arial, sans-serif;
+	  display: inline;	
+	}
+	a:visited {
+		color: #977219;
+	}
+	h1 {
+		font-family: 'Helvetica';
+		font-size: 36px;
+		font-weight: bold;
+		color: #e4efee;
+		background-color: #008c85;
+	}
+	#nextBtn{
+		position: relative;
+		margin: 20px;
+	}
+	#prevBtn{
+		position: relative;
+		margin: 20px;
+	}
+}
