@@ -81,17 +81,17 @@ h1{
 	table.prod-table {
   	 text-align: center;   
 	}
-	#linksWrapper{
+	#links-wrapper{
 		overflow: hidden;
 		margin: 20px;
 	}
-	#nextBtn{
+	#next-btn{
 		float:right;
 	}
-	#prevBtn{
+	#prev-btn{
 		float:left;
 	}
-	#userSearch{
+	#user-search-btn{
 		width : auto;
 		margin: 10px;
 	}
