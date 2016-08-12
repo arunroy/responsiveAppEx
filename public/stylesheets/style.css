@@ -10,10 +10,11 @@ a {
 
 }
 
-.links{}
-.user-search{
-	width : 50px;
-}
+
+	#userSearch{
+		width : auto;
+		margin: 10px;
+	}
 
 h1{
 	font-family: 'Helvetica';
@@ -45,7 +46,7 @@ h1{
 #prodInfo{
 	margin: 5px;
 }
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 544px) {
     body {
 	  
 	  font: 24px "Helvetica Regular", Arial, sans-serif;
@@ -58,9 +59,15 @@ h1{
 	  font: 20px "Helvetica Regular", Arial, sans-serif;
 	  display: inline;	
 	}
+	a:link{
+    	text-decoration: none;
+	}
 	a:visited {
 		color: #977219;
 	}
+	a:hover{
+    	text-decoration: none;
+	}	
 	h1 {
 		font-family: 'Helvetica';
 		font-size: 36px;
@@ -68,12 +75,24 @@ h1{
 		color: #e4efee;
 		background-color: #008c85;
 	}
-	#nextBtn{
-		position: relative;
+/*	.table td {
+  	 text-align: center;   
+	}*/
+	table.prod-table {
+  	 text-align: center;   
+	}
+	#linksWrapper{
+		overflow: hidden;
 		margin: 20px;
 	}
+	#nextBtn{
+		float:right;
+	}
 	#prevBtn{
-		position: relative;
-		margin: 20px;
+		float:left;
+	}
+	#userSearch{
+		width : auto;
+		margin: 10px;
 	}
 }
