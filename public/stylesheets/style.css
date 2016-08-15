@@ -1,26 +1,31 @@
 body {
   
-  font: 20px "Helvetica Regular", Arial, sans-serif;
+  font: 20px 'Helvetica Regular', Arial, sans-serif;
   color: #0c332f;
+  line-height: 36px;
 }
 
 a {
   color: #8c6300;
-  font: 20px "Helvetica Regular", Arial, sans-serif;
-
+  font: 20px 'Helvetica', Arial, sans-serif;
+  line-height: 36px;
+  font-weight: bold;
 }
 
 #user-search-btn{
 		width : auto;
 		margin: 10px;
 }
+
 h1{
-	font-family: 'Helvetica';
+	font-family: 'Helvetica Regular', Arial, sans-serif;
 	font-size: 24px;
 	font-weight: bold;
 	color: #e4efee;
 	background-color: #008c85;
+	line-height: 36px;
 }
+
 .data-row{
 	background-color:#f9f9f9;
 	border: 1px solid #ddd;
@@ -44,51 +49,64 @@ h1{
 #prodInfo{
 	margin: 5px;
 }
+
 @media only screen and (max-width: 544px) {
-    body {
-	  
-	  font: 24px "Helvetica Regular", Arial, sans-serif;
+   
+	body {
+	  font: 24px 'Helvetica Regular', Arial, sans-serif;
 	  color: #0c332f;
 	  background-color: #f9fbd0;
+	  line-height: 36px;
 	}
 
-	a {
-	  color: #8c6300;
-	  font: 20px "Helvetica Regular", Arial, sans-serif;
-	  display: inline;	
-	}
-	a:link{
-    	text-decoration: none;
-	}
-	a:visited {
-		color: #977219;
-	}
-	a:hover{
-    	text-decoration: none;
-	}	
 	h1 {
-		font-family: 'Helvetica';
+		font-family: 'Helvetica', Arial, sans-serif;
 		font-size: 36px;
 		font-weight: bold;
 		color: #e4efee;
 		background-color: #008c85;
+		line-height: 36px;
 	}
-/*	.table td {
-  	 text-align: center;   
-	}*/
+	
+	a {
+	  color: #8c6300;
+	  font: 20px 'Helvetica', Arial, sans-serif;
+	  display: inline;	
+	  line-height: 36px;
+	  font-weight: bold;
+	}
+	
+	a:link{
+    	text-decoration: none;
+	}
+	
+	a:visited {
+		color: #977219;
+	}
+	
+	a:hover{
+    	text-decoration: none;
+	}
+	
+
+
 	table.prod-table {
   	 text-align: center;   
 	}
+	
 	#links-wrapper{
 		overflow: hidden;
 		margin: 20px;
 	}
+	
 	#next-btn{
 		float:right;
 	}
+	
 	#prev-btn{
 		float:left;
 	}
+	
 	#user-search-btn{
 		width : auto;
 		margin: 10px;

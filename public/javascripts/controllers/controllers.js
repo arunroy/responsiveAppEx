@@ -1,5 +1,5 @@
 	  angular.module('savingsBankApp',[])
-	  			.controller('savingsBankController',['$scope','$http',function($scope,$http){
+	  			.controller('savingsBankCtrl',['$scope','$http',function($scope,$http){
 					$scope.message="From controller";
 					
 					
